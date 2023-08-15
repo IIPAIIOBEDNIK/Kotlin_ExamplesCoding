@@ -61,5 +61,30 @@ fun main(args: Array<String>) {
 // индекс или ключ. Массивы удобно использовать для хранения наборов элементов, которые позднее задействуются в
 // программе. Массивы создаются с помощью библиотечного метода arrayOf(). Значения, которые необходимо сохранить в
 // масиве, передаются в виде последовательности элементов разделенных запятыми)
-val names = arrayOf("Tobi", "Tonia", "Timi")
-//
+/*
+fun main(args: Array<String>) {
+    val names = arrayOf("Tobi", "Tonia", "Timi")
+    val numbers = arrayOf(1, 2, 3, 4)
+    println(numbers[0]) //выводит 1
+    println(numbers.get(1)) //выводит 2
+}
+*/
+
+//Изменение значения позиции в массиве
+/*
+fun main(args: Array<String>) {
+    val numbers = arrayOf(1, 2, 3, 4)
+    println(numbers[0]) //выводит 1
+    numbers[0] = 23
+    println(numbers[0])
+    println(numbers[1])
+}
+*/
+
+//Получение размера массива
+/*
+fun main(args: Array<String>) {
+    val numbers = arrayOf(1, 2, 3, 4)
+    println(numbers.length) //выводит 4
+}
+*/
