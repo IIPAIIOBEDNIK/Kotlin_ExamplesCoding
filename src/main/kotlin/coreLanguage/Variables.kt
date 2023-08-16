@@ -1,3 +1,5 @@
+package coreLanguage
+// Переменные
 /*
 class Variables {
     var x: Int = 1
